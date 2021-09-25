@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Training
+{% endblock %}
+
+{% block main %}
+<div class="jumbotron">
+    <h1>Training Products</h1>
+</div>
+    <div class="page">
+    {% for book in training %}
+        <h2>{{ book.name }}</h2><h5>{{ book.description }}</h5><h3>{{ book.price | usd}}</h3>
+        <form action="/cart" method="post">
+            <input name="id" type="hidden" value="{{ book.productid }}">
+            <input class="btn btn-primary" type="submit" value="Add to Cart">
+            <hr>
+        </form>
+    {% endfor %}
+    </div>
+
+
+{% endblock %}

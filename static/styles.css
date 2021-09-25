@@ -1,0 +1,130 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xxx-large;
+
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.page
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: left;
+}
+
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+.jumbotron {
+    background-color: #9b00fb;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotronaccess {
+    background-color: #ea433c;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotronfood {
+    background-color: #2e944b;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotrontrainingindex {
+    background-color: #8a2be2;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotronaccessindex {
+    background-color: #e22f2b;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotronfoodindex {
+    background-color: #5da917;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.jumbotroncart {
+
+    background-color: #fb6222;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+.cart
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    text-align: center;
+    padding: 0rem 10rem;
+}
